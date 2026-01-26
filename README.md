@@ -32,9 +32,5 @@ A modular collection of AI solutions and automation scripts ranging from financi
 
 ---
 
-## ⚙️ Setup & Installation
 
-1. **Clone the repository**:
-   ```bash
-   git clone [https://github.com/panxiaoyan225-sudo/OmniAI-Toolkit.git](https://github.com/panxiaoyan225-sudo/OmniAI-Toolkit.git)
-   cd OmniAI-Toolkit
+
