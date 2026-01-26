@@ -137,32 +137,5 @@ if ticker:
                 st.write(response.text)
             except Exception as e:
                 st.error(f"Gemini API Error: {e}")
-    # pip freeze > requirements.txt
-  # pip freeze > "C:\Users\ADMIN\My Drive\Python\AI_examples\requirements.txt"
-        
-# directly run in Python, only acess within the network
-# python -m streamlit run "C:\Users\ADMIN\My Drive\Python\pipeline\AI_coding\Stock_app.py"
 
-
-# deploy in cloud run
-# see deployed _cloudRUN
-
-# The following code is a shell command to deploy the app to Google Cloud Run:
-#
-# gcloud run deploy stock-ai-app \
-# --source . \
-# --region us-central1 \
-#--allow-unauthenticated \
-#--set-secrets GEMINI_API_KEY=GEMINI_API_KEY:latest \
-#--clear-base-image
-#
-# Here's what each part does:
-# - `gcloud run deploy stock-ai-app`: Deploys a Cloud Run service named "stock-ai-app".
-# - `--source .`: Uses the current directory as the source for the deployment.
-# - `--region us-central1`: Deploys to the Google Cloud region "us-central1".
-# - `--allow-unauthenticated`: Allows users without authentication to access the service.
-# - `--set-secrets GEMINI_API_KEY=GEMINI_API_KEY:latest`: Injects a secret named "GEMINI_API_KEY" into the running service, using its latest version. The app will be able to use this key as an environment variable (as referenced in the Python code with `st.secrets["GEMINI_API_KEY"]`).
-# - `--clear-base-image`: Ensures the previous base image is not reused during deployment (forces a new build).
-#
-# The backticks (`\``) in the original command are used in PowerShell to indicate line continuation.
 

@@ -5,9 +5,17 @@ import os
 from dotenv import load_dotenv, find_dotenv
 import streamlit as st
 
-# Load credentials
+# 1. LOAD CONFIGURATION
+# find_dotenv() must have () to work correctly
+# MySQL credentials
 load_dotenv(find_dotenv())
 API_KEY = os.getenv("GEMINI_API_KEY")
+
+
+load_dotenv(find_dotenv())
+# Fetching all components from .env
+# 2. Get the base path from the environment variable
+base_path = os.getenv("MY_PROJECT_PATH")
 
 # --- STEP 1: DEFINE TOOLS FIRST (Fixes NameError) ---
 def get_stock_price(ticker: str) -> str:
@@ -50,4 +58,5 @@ if st.button("Run Agent Analysis"):
             
         except Exception as e:
             st.error(f"Agent Error: {e}")
-#python -m streamlit run "C:\Users\ADMIN\My Drive\Python\AI_agents\Genai_Agent.py"
+
+
