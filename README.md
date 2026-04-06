@@ -1,6 +1,7 @@
 # OmniAI-Toolkit: A Comprehensive AI & Data Suite
 [🚀 View Autonomous Multi-Agent ](https://panxiaoyan225-sudo.github.io/panxiaoyan225-sudo/agents_infographic.html)
-A modular AI automation suite providing specialized tools for autonomous agent orchestration, stock market forecasting, speech-to-text transcription, and multi-agent financial insights.
+
+A modular AI automation suite providing specialized tools for autonomous agent orchestration,  speech-to-text transcription, and multi-agent financial insights.
 
 ---
 
