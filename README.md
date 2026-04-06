@@ -1,11 +1,16 @@
 # OmniAI-Toolkit: A Comprehensive AI & Data Suite
-
-A modular AI automation suite providing specialized tools for stock market forecasting, speech-to-text transcription, and multi-agent financial insights.
+[🚀 View Autonomous Multi-Agent ](https://panxiaoyan225-sudo.github.io/panxiaoyan225-sudo/agents_infographic.html)
+A modular AI automation suite providing specialized tools for autonomous agent orchestration, stock market forecasting, speech-to-text transcription, and multi-agent financial insights.
 
 ---
 
 ## 🚀 Features
 
+### 🤖 Autonomous AI Agents (OpenClaw)
+* **agents_infographic.html**: An interactive architectural visualization of the multi-agent ecosystem.
+* **Autonomous Multi-Agent Framework**: Engineered an objective-driven system using **OpenClaw** where independent agents (**Mei, John, Sam**) execute complex tasks.
+* **Isolated Workspaces**: Each agent operates within a dedicated local file-system environment (e.g., `C:/Users/ADMINI.openclaw/...`) to ensure data security and process integrity.
+* **API Gateway Orchestration**: Centralized routing via **OpenRouter** and **Ollama**, transitioning from simple chatbots to fully autonomous, goal-oriented systems.
 
 ### 🧠 Natural Language Processing (NLP)
 * **NLP_Sentiment.py**: Utilizes Hugging Face **Transformers** to perform emotional tone analysis on text data.
@@ -27,10 +32,11 @@ A modular AI automation suite providing specialized tools for stock market forec
 ---
 
 ## 🛠️ Technical Stack
-- **Languages**: Python
+- **Languages**: Python, HTML/CSS (Portfolio Integration)
+- **Agent Frameworks**: OpenClaw, OpenRouter, Ollama
 - **AI Frameworks**: TensorFlow/Keras, Hugging Face Transformers, LangChain, Google GenAI
 - **Data & APIs**: Pandas, YFinance, **FlightAPI.io**, Scikit-learn
-- **Frontend**: Streamlit
-- **Deployment**: Docker, Google Cloud Run
+- **Frontend & Visualization**: Streamlit, Interactive HTML Infographics
+- **Deployment**: Docker, Google Cloud Run, GitHub Actions (Self-Hosted Runners)
 
 ---
