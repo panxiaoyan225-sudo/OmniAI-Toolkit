@@ -9,7 +9,7 @@ A modular AI automation suite providing specialized tools for autonomous agent o
 
 ### 🤖 Autonomous AI Agents (OpenClaw)
 * **agents_infographic.html**: An interactive architectural visualization of the multi-agent ecosystem.
-* **Autonomous Multi-Agent Framework**: Engineered an objective-driven system using **OpenClaw** where independent agents (**Mei, John, Sam**) execute complex tasks.
+* **Autonomous Multi-Agent Framework**: Engineered an objective-driven system using **OpenClaw** where independent agents (**Mei, John, Sam**) execute complex tasks.They are capable of performing tasks independently as well as working collaboratively within a team
 * **Isolated Workspaces**: Each agent operates within a dedicated local file-system environment (e.g., `C:/Users/ADMINI.openclaw/...`) to ensure data security and process integrity.
 * **API Gateway Orchestration**: Centralized routing via **OpenRouter** and **Ollama**, transitioning from simple chatbots to fully autonomous, goal-oriented systems.
 
