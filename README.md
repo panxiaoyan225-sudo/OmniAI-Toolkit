@@ -1,8 +1,8 @@
-# OmniAI-Toolkit: A Comprehensive AI & Data Suite
+# AI-DataSuite: A Comprehensive AI & Data Suite
 
 [🚀 View Autonomous Multi-Agent Interactive Infographic](https://panxiaoyan225-sudo.github.io/panxiaoyan225-sudo/agents_infographic.html)
 
-A modular AI automation suite providing specialized tools for autonomous agent orchestration, semantic search, financial intelligence, and speech processing.
+This modular AI suite orchestrates autonomous agents via **OpenClaw**, utilizes **embedding** models for semantic intelligence, and leverages **ChromaDB** for persistent, local vector storage and **LangChain** for fully offline Retrieval-Augmented Generation (RAG).
 
 ---
 
@@ -11,28 +11,26 @@ A modular AI automation suite providing specialized tools for autonomous agent o
 ### 🤖 Autonomous AI Agents (OpenClaw)
 *   **Autonomous Multi-Agent Framework**: An objective-driven system utilizing **OpenClaw** where independent agents (**Mei, John, Sam**) execute complex tasks through collaborative or independent workflows.
 *   **Isolated Workspaces**: Ensures data security by running each agent within a dedicated local file-system environment.
-*   **API Gateway Orchestration**: Centralized routing via **OpenRouter** and **Ollama**, facilitating the transition from simple chatbots to goal-oriented autonomous systems.
-*   **Visual Architecture**: Includes `agents_infographic.html` for an interactive look at the ecosystem.
+*   **API Gateway Orchestration**: Centralized routing via **OpenRouter** and **Ollama**, transitioning from simple chatbots to goal-oriented autonomous systems.
 
 ### 🧬 Semantic Search & Embeddings
 *   **Local_Embeddings.py**: High-performance text vectorization using `all-MiniLM-L6-v2` running locally.
 *   **Vector Similarity Engine**: Pure **NumPy** implementation of Cosine Similarity for document comparison without external API dependencies.
-*   **Efficient Processing**: Transforms text into 384-dimensional dense vectors optimized for low-latency retrieval.
+*   **Precision Chunking**: Implements `RecursiveCharacterTextSplitter` to maintain semantic integrity by breaking documents at natural paragraph and sentence boundaries.
 
-### 📦 Vector Databases (RAG Readiness)
-*   **chromaDB_model.py**: Implementation of a persistent local vector store using **ChromaDB**.
-*   **Automated Indexing**: Handles the full lifecycle of embedding generation, storage, and metadata tagging for unstructured data.
-*   **Persistent Knowledge Base**: Configured with `PersistentClient` to maintain a local data store, enabling cross-session retrieval-augmented generation (RAG) capabilities.
+### 📦 Vector Databases & RAG (LangChain)
+*   **chromaDB_model.py**: Implementation of a persistent local vector store using **ChromaDB** for cross-session data retrieval.
+*   **Local RAG Application**: A complete pipeline built with **LangChain** and **Ollama** (Llama 3) that retrieves relevant local context to answer queries without any cloud API calls.
+*   **Automated Indexing**: Handles document loading, recursive chunking, and metadata tagging to build a private knowledge base.
 
 ### 🧠 Natural Language Processing (NLP)
 *   **NLP_Sentiment.py**: Emotional tone analysis powered by Hugging Face **Transformers**.
-*   **Text Classification**: State-of-the-art LLM tools for categorizing text data.
-*   **LangChain Integration**: Modular "Chain" workflows using **LangChain** and **Llama 3** (via Ollama) for custom prompt orchestration.
+*   **Text Classification**: Tools for categorizing text data into custom labels using state-of-the-art LLMs.
+*   **LangChain Orchestration**: Modular "Chain" workflows for custom prompt management and agent logic.
 
 ### 📈 Financial Intelligence
 *   **Stock_app.py**: Streamlit dashboard featuring **LSTM** neural networks for historical price prediction.
 *   **Genai_Agent.py**: Modern AI agent leveraging **Gemini 2.0 Flash** with function calling for real-time market insights via `yfinance`.
-*   **Stock_Trends.py**: Technical analysis and automated trend identification.
 
 ### 🎙️ Speech & Travel Intelligence
 *   **ASR_Audio_Transcriber.py**: Automated speech-to-text transcription using OpenAI’s **Whisper**.
@@ -45,6 +43,7 @@ A modular AI automation suite providing specialized tools for autonomous agent o
 
 *   **Languages**: Python, HTML/CSS
 *   **Agent Frameworks**: OpenClaw, OpenRouter, Ollama
-*   **Vector DB & AI/ML**: ChromaDB, PyTorch, Sentence-Transformers, Hugging Face, LangChain, Google GenAI
+*   **Vector DB & RAG**: ChromaDB, LangChain, Ollama (Llama 3, Nomic-Embed)
+*   **AI/ML Frameworks**: PyTorch, Sentence-Transformers, Hugging Face, Google GenAI
 *   **Data & Math**: NumPy, Pandas, Scikit-learn, YFinance
 *   **Deployment**: Docker, Windows/WSL2, GitHub Actions
