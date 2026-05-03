@@ -19,6 +19,11 @@ A modular AI automation suite providing specialized tools for autonomous agent o
 *   **Vector Similarity Engine**: Pure **NumPy** implementation of Cosine Similarity for document comparison without external API dependencies.
 *   **Efficient Processing**: Transforms text into 384-dimensional dense vectors optimized for low-latency retrieval.
 
+### 📦 Vector Databases (RAG Readiness)
+*   **chromaDB_model.py**: Implementation of a persistent local vector store using **ChromaDB**.
+*   **Automated Indexing**: Handles the full lifecycle of embedding generation, storage, and metadata tagging for unstructured data.
+*   **Persistent Knowledge Base**: Configured with `PersistentClient` to maintain a local data store, enabling cross-session retrieval-augmented generation (RAG) capabilities.
+
 ### 🧠 Natural Language Processing (NLP)
 *   **NLP_Sentiment.py**: Emotional tone analysis powered by Hugging Face **Transformers**.
 *   **Text Classification**: State-of-the-art LLM tools for categorizing text data.
@@ -40,6 +45,6 @@ A modular AI automation suite providing specialized tools for autonomous agent o
 
 *   **Languages**: Python, HTML/CSS
 *   **Agent Frameworks**: OpenClaw, OpenRouter, Ollama
-*   **AI/ML Frameworks**: PyTorch, Sentence-Transformers, TensorFlow/Keras, Hugging Face, LangChain, Google GenAI
+*   **Vector DB & AI/ML**: ChromaDB, PyTorch, Sentence-Transformers, Hugging Face, LangChain, Google GenAI
 *   **Data & Math**: NumPy, Pandas, Scikit-learn, YFinance
 *   **Deployment**: Docker, Windows/WSL2, GitHub Actions
