@@ -1,7 +1,5 @@
 # AI-DataSuite: A Comprehensive AI & Data Suite
 
-[🚀 View Autonomous Multi-Agent Interactive Infographic](https://panxiaoyan225-sudo.github.io/panxiaoyan225-sudo/agents_infographic.html)
-
 This modular AI suite orchestrates autonomous agents via **OpenClaw**, utilizes **embedding** models for semantic intelligence, and leverages **ChromaDB** for persistent, local vector storage and **LangChain** for fully offline Retrieval-Augmented Generation (RAG).
 
 ---
@@ -9,6 +7,7 @@ This modular AI suite orchestrates autonomous agents via **OpenClaw**, utilizes 
 ## 🚀 Key Modules
 
 ### 🤖 Autonomous AI Agents (OpenClaw)
+[🚀 View Autonomous Multi-Agent Interactive Infographic](https://panxiaoyan225-sudo.github.io/panxiaoyan225-sudo/agents_infographic.html)
 *   **Autonomous Multi-Agent Framework**: An objective-driven system utilizing **OpenClaw** where independent agents (**Mei, John, Sam**) execute complex tasks through collaborative or independent workflows.
 *   **Isolated Workspaces**: Ensures data security by running each agent within a dedicated local file-system environment.
 *   **API Gateway Orchestration**: Centralized routing via **OpenRouter** and **Ollama**, transitioning from simple chatbots to goal-oriented autonomous systems.
