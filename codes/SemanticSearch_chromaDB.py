@@ -41,7 +41,7 @@ collection.add(
 
 # 6. Perform a Semantic Query
 results = collection.query(
-    query_texts=["Who deals with financial data?"],
+    query_texts=["Who works as assistant ?"],
     n_results=1
 )
 
